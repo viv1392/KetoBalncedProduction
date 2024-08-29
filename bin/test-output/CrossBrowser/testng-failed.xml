@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [CrossBrowser]">
+  <parameter name="browser" value="edge"/>
+  <test parallel="none" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="registrationMenNonVegNegativeWeightKg"/>
+          <include name="invalidWeightLbVegEatAll"/>
+          <include name="heightInFtVeget"/>
+          <include name="userRegistrationMenVegwitoutFaker"/>
+          <include name="landingPageUrl"/>
+          <include name="landingPageUrl"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenNonVegNegHeightCmPRE"/>
+          <include name="userRegistrationMenVeganNegFt"/>
+          <include name="userWithBlankdEmaiIdMen"/>
+          <include name="weightLbsVegan"/>
+          <include name="weightLbsVeget"/>
+          <include name="heightInFeetvegan"/>
+          <include name="InvalidWeihgtKgvegan"/>
+          <include name="withoutFakeruserRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenVeganEatAll"/>
+          <include name="userRegistrationMenVegan"/>
+          <include name="weightInLbsNonVeg"/>
+          <include name="userRegistrationMenVegEatAllNegativeWeightLb"/>
+          <include name="heightInFtNonVeg"/>
+          <include name="userRegistrationMenVegEatAll"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="userRegistrationMenNonVegEatAll"/>
+          <include name="userRegistrationMenVegNegCm"/>
+          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="userRegistrationMenVeg"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+      <class name="userRegistrationTest.UserReWomenTest">
+        <methods>
+          <include name="userRegistrationWomenNonVegNegHeightCmPRE"/>
+          <include name="weightInLbsNonVegWomen"/>
+          <include name="withoutFakeruserRegistrationMenNonVegWomen"/>
+          <include name="heightInFeetveganWomen"/>
+          <include name="userRegistrationWoMenVegan"/>
+          <include name="invalidWeightLbVegEatAllWomen"/>
+          <include name="registrationWomenNonVegNegativeWeightKg"/>
+          <include name="userRegistrationWoMenNonVeg"/>
+          <include name="weightLbsVegetWomen"/>
+          <include name="InvalidWeihgtKgveganWomen"/>
+          <include name="userRegistratioWomenVegNegCm"/>
+          <include name="userRegistrationWomenVegEatAllNegativeWeightLb"/>
+          <include name="userRegistrationWomenVeganEatAll"/>
+          <include name="userRegistrationWomenVeganNegFtNegative"/>
+          <include name="heightInFtNonVegWomen"/>
+          <include name="witoutFakeruserRegistrationWoMenVegan"/>
+          <include name="userWithBlankdEmaiIdWomen"/>
+          <include name="userRegistrationWomenNonVegEatAll"/>
+          <include name="userRegistrationWoMenVeg"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="heightInFtVegetWomen"/>
+          <include name="userRegistrationWomenVegEatAll"/>
+          <include name="userRegistrationWoMenVegwitoutFaker"/>
+          <include name="weightLbsVeganWomen"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test parallel="none" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="registrationMenNonVegNegativeWeightKg"/>
+          <include name="invalidWeightLbVegEatAll"/>
+          <include name="heightInFtVeget"/>
+          <include name="userRegistrationMenVegwitoutFaker"/>
+          <include name="landingPageUrl"/>
+          <include name="landingPageUrl"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenNonVegNegHeightCmPRE"/>
+          <include name="userRegistrationMenVeganNegFt"/>
+          <include name="userWithBlankdEmaiIdMen"/>
+          <include name="weightLbsVegan"/>
+          <include name="weightLbsVeget"/>
+          <include name="heightInFeetvegan"/>
+          <include name="InvalidWeihgtKgvegan"/>
+          <include name="withoutFakeruserRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenVeganEatAll"/>
+          <include name="userRegistrationMenVegan"/>
+          <include name="weightInLbsNonVeg"/>
+          <include name="userRegistrationMenVegEatAllNegativeWeightLb"/>
+          <include name="heightInFtNonVeg"/>
+          <include name="userRegistrationMenVegEatAll"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="userRegistrationMenNonVegEatAll"/>
+          <include name="userRegistrationMenVegNegCm"/>
+          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="userRegistrationMenVeg"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+      <class name="userRegistrationTest.UserReWomenTest">
+        <methods>
+          <include name="userRegistrationWomenNonVegNegHeightCmPRE"/>
+          <include name="weightInLbsNonVegWomen"/>
+          <include name="withoutFakeruserRegistrationMenNonVegWomen"/>
+          <include name="heightInFeetveganWomen"/>
+          <include name="userRegistrationWoMenVegan"/>
+          <include name="invalidWeightLbVegEatAllWomen"/>
+          <include name="registrationWomenNonVegNegativeWeightKg"/>
+          <include name="userRegistrationWoMenNonVeg"/>
+          <include name="weightLbsVegetWomen"/>
+          <include name="InvalidWeihgtKgveganWomen"/>
+          <include name="userRegistratioWomenVegNegCm"/>
+          <include name="userRegistrationWomenVegEatAllNegativeWeightLb"/>
+          <include name="userRegistrationWomenVeganEatAll"/>
+          <include name="userRegistrationWomenVeganNegFtNegative"/>
+          <include name="heightInFtNonVegWomen"/>
+          <include name="witoutFakeruserRegistrationWoMenVegan"/>
+          <include name="userWithBlankdEmaiIdWomen"/>
+          <include name="userRegistrationWomenNonVegEatAll"/>
+          <include name="userRegistrationWoMenVeg"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="heightInFtVegetWomen"/>
+          <include name="userRegistrationWomenVegEatAll"/>
+          <include name="userRegistrationWoMenVegwitoutFaker"/>
+          <include name="weightLbsVeganWomen"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test parallel="none" name="edgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="userRegistrationTest.UserReMenTest">
+        <methods>
+          <include name="registrationMenNonVegNegativeWeightKg"/>
+          <include name="invalidWeightLbVegEatAll"/>
+          <include name="heightInFtVeget"/>
+          <include name="userRegistrationMenVegwitoutFaker"/>
+          <include name="landingPageUrl"/>
+          <include name="landingPageUrl"/>
+          <include name="landingPageUrl"/>
+          <include name="userRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenNonVegNegHeightCmPRE"/>
+          <include name="userRegistrationMenVeganNegFt"/>
+          <include name="userWithBlankdEmaiIdMen"/>
+          <include name="weightLbsVegan"/>
+          <include name="weightLbsVeget"/>
+          <include name="heightInFeetvegan"/>
+          <include name="InvalidWeihgtKgvegan"/>
+          <include name="withoutFakeruserRegistrationMenNonVeg"/>
+          <include name="userRegistrationMenVeganEatAll"/>
+          <include name="userRegistrationMenVegan"/>
+          <include name="weightInLbsNonVeg"/>
+          <include name="userRegistrationMenVegEatAllNegativeWeightLb"/>
+          <include name="heightInFtNonVeg"/>
+          <include name="userRegistrationMenVegEatAll"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="userRegistrationMenNonVegEatAll"/>
+          <include name="userRegistrationMenVegNegCm"/>
+          <include name="witoutFakeruserRegistrationMenVegan"/>
+          <include name="userRegistrationMenVeg"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+      <class name="userRegistrationTest.UserReWomenTest">
+        <methods>
+          <include name="userRegistrationWomenNonVegNegHeightCmPRE"/>
+          <include name="weightInLbsNonVegWomen"/>
+          <include name="withoutFakeruserRegistrationMenNonVegWomen"/>
+          <include name="heightInFeetveganWomen"/>
+          <include name="userRegistrationWoMenVegan"/>
+          <include name="invalidWeightLbVegEatAllWomen"/>
+          <include name="registrationWomenNonVegNegativeWeightKg"/>
+          <include name="userRegistrationWoMenNonVeg"/>
+          <include name="weightLbsVegetWomen"/>
+          <include name="InvalidWeihgtKgveganWomen"/>
+          <include name="userRegistratioWomenVegNegCm"/>
+          <include name="userRegistrationWomenVegEatAllNegativeWeightLb"/>
+          <include name="userRegistrationWomenVeganEatAll"/>
+          <include name="userRegistrationWomenVeganNegFtNegative"/>
+          <include name="heightInFtNonVegWomen"/>
+          <include name="witoutFakeruserRegistrationWoMenVegan"/>
+          <include name="userWithBlankdEmaiIdWomen"/>
+          <include name="userRegistrationWomenNonVegEatAll"/>
+          <include name="userRegistrationWoMenVeg"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="heightInFtVegetWomen"/>
+          <include name="userRegistrationWomenVegEatAll"/>
+          <include name="userRegistrationWoMenVegwitoutFaker"/>
+          <include name="weightLbsVeganWomen"/>
+        </methods>
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowser] -->
