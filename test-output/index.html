@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>testngSubDomains.xml</span>
+                    <span>testngGroup.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -58,7 +58,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReMenTest" class="method navigator-link" hash-for-method="userRegistrationMenNonVegEatAll">userRegistrationMenNonVegEatAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReMenTest" class="method navigator-link" hash-for-method="userRegistrationMenVegEatAll">userRegistrationMenVegEatAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReWomenTest" class="method navigator-link" hash-for-method="userRegistrationWoMenVegan">userRegistrationWoMenVegan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReWomenTest" class="method navigator-link" hash-for-method="userRegistrationWomenVegEatAll">userRegistrationWomenVegEatAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,22 +130,42 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.SubDomainsTest" class="method navigator-link" hash-for-method="aus">aus</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReMenTest" class="method navigator-link" hash-for-method="userRegistrationMenNonVeg">userRegistrationMenNonVeg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.SubDomainsTest" class="method navigator-link" hash-for-method="ca">ca</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReMenTest" class="method navigator-link" hash-for-method="userRegistrationMenVeg">userRegistrationMenVeg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.SubDomainsTest" class="method navigator-link" hash-for-method="uk">uk</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReMenTest" class="method navigator-link" hash-for-method="userRegistrationMenVegan">userRegistrationMenVegan</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.SubDomainsTest" class="method navigator-link" hash-for-method="usa">usa</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReMenTest" class="method navigator-link" hash-for-method="userRegistrationMenVeganEatAll">userRegistrationMenVeganEatAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReWomenTest" class="method navigator-link" hash-for-method="userRegistrationWoMenNonVeg">userRegistrationWoMenNonVeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReWomenTest" class="method navigator-link" hash-for-method="userRegistrationWoMenVeg">userRegistrationWoMenVeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReWomenTest" class="method navigator-link" hash-for-method="userRegistrationWomenNonVegEatAll">userRegistrationWomenNonVegEatAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="userRegistrationTest.UserReWomenTest" class="method navigator-link" hash-for-method="userRegistrationWomenVeganEatAll">userRegistrationWomenVeganEatAll</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,38 +180,226 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">userRegistrationTest.SubDomainsTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">userRegistrationTest.UserReWomenTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="aus">
-                  </a> <!-- aus -->
-                  <span class="method-name">aus</span>
+                  <a name="userRegistrationWoMenVegan">
+                  </a> <!-- userRegistrationWoMenVegan -->
+                  <span class="method-name">userRegistrationWoMenVegan</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Sporting event&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb1b13b459783febc51a2ac243c6c88f, findElement {using=xpath, value=//span[text()=&apos;Sporting event&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55779/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb1b13b459783febc51a2ac243c6c88f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.sportingEvent(SpecialOccasions.java:45)
+	at userRegistrationTest.UserReWomenTest.userRegistrationWoMenVegan(UserReWomenTest.java:171)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="ca">
-                  </a> <!-- ca -->
-                  <span class="method-name">ca</span>
+                  <a name="userRegistrationWomenVegEatAll">
+                  </a> <!-- userRegistrationWomenVegEatAll -->
+                  <span class="method-name">userRegistrationWomenVegEatAll</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Wedding&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6a8e4eaf5569613ab3facec3f299b61, findElement {using=xpath, value=//span[text()=&apos;Wedding&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56589/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6a8e4eaf5569613ab3facec3f299b61
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.wedding(SpecialOccasions.java:40)
+	at userRegistrationTest.UserReWomenTest.userRegistrationWomenVegEatAll(UserReWomenTest.java:630)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">userRegistrationTest.UserReMenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationMenNonVegEatAll">
+                  </a> <!-- userRegistrationMenNonVegEatAll -->
+                  <span class="method-name">userRegistrationMenNonVegEatAll</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Vacation&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96a66c3f3c429747d8b4768dec5862b1, findElement {using=xpath, value=//span[text()=&apos;Vacation&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55946/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96a66c3f3c429747d8b4768dec5862b1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.vacation(SpecialOccasions.java:34)
+	at userRegistrationTest.UserReMenTest.userRegistrationMenNonVegEatAll(UserReMenTest.java:597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="uk">
-                  </a> <!-- uk -->
-                  <span class="method-name">uk</span>
+                  <a name="userRegistrationMenVegEatAll">
+                  </a> <!-- userRegistrationMenVegEatAll -->
+                  <span class="method-name">userRegistrationMenVegEatAll</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Wedding&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c8a180ba7fda5a1a2e1d947cc4ea5fb, findElement {using=xpath, value=//span[text()=&apos;Wedding&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56112/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c8a180ba7fda5a1a2e1d947cc4ea5fb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.wedding(SpecialOccasions.java:40)
+	at userRegistrationTest.UserReMenTest.userRegistrationMenVegEatAll(UserReMenTest.java:634)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">userRegistrationTest.UserReWomenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationWoMenNonVeg">
+                  </a> <!-- userRegistrationWoMenNonVeg -->
+                  <span class="method-name">userRegistrationWoMenNonVeg</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="usa">
-                  </a> <!-- usa -->
-                  <span class="method-name">usa</span>
+                  <a name="userRegistrationWoMenVeg">
+                  </a> <!-- userRegistrationWoMenVeg -->
+                  <span class="method-name">userRegistrationWoMenVeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationWomenNonVegEatAll">
+                  </a> <!-- userRegistrationWomenNonVegEatAll -->
+                  <span class="method-name">userRegistrationWomenNonVegEatAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationWomenVeganEatAll">
+                  </a> <!-- userRegistrationWomenVeganEatAll -->
+                  <span class="method-name">userRegistrationWomenVeganEatAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">userRegistrationTest.UserReMenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationMenNonVeg">
+                  </a> <!-- userRegistrationMenNonVeg -->
+                  <span class="method-name">userRegistrationMenNonVeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationMenVeg">
+                  </a> <!-- userRegistrationMenVeg -->
+                  <span class="method-name">userRegistrationMenVeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationMenVegan">
+                  </a> <!-- userRegistrationMenVegan -->
+                  <span class="method-name">userRegistrationMenVegan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userRegistrationMenVeganEatAll">
+                  </a> <!-- userRegistrationMenVeganEatAll -->
+                  <span class="method-name">userRegistrationMenVeganEatAll</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,7 +407,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/hispl/git/ketoBalanced/testngSubDomains.xml</span>
+            <span class="header-content">/Users/hispl/git/ketoBalanced/testngGroup.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,11 +420,13 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;country&quot;/&gt;
+        &lt;include name=&quot;eatAll&quot;/&gt;
+        &lt;include name=&quot;functionality&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;userRegistrationTest.SubDomainsTest&quot;/&gt;
+      &lt;class name=&quot;userRegistrationTest.UserReMenTest&quot;/&gt;
+      &lt;class name=&quot;userRegistrationTest.UserReWomenTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -201,7 +440,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,22 +451,58 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">country</span>
+              <span class="test-group-name">eatAll</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">aus</span>
+                <span class="method-in-group-name">userRegistrationMenNonVegEatAll</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">ca</span>
+                <span class="method-in-group-name">userRegistrationMenVegEatAll</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">uk</span>
+                <span class="method-in-group-name">userRegistrationMenVeganEatAll</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">usa</span>
+                <span class="method-in-group-name">userRegistrationWomenNonVegEatAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationWomenVegEatAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationWomenVeganEatAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functionality</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationMenNonVeg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationMenVeg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationMenVegan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationWoMenNonVeg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationWoMenVeg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">userRegistrationWoMenVegan</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -247,28 +522,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'usa')
-data.setCell(0, 2, 'userRegistrationTest.SubDomainsTest')
-data.setCell(0, 3, 81430);
+data.setCell(0, 1, 'userRegistrationMenVegEatAll')
+data.setCell(0, 2, 'userRegistrationTest.UserReMenTest')
+data.setCell(0, 3, 91430);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'aus')
-data.setCell(1, 2, 'userRegistrationTest.SubDomainsTest')
-data.setCell(1, 3, 77474);
+data.setCell(1, 1, 'userRegistrationWomenVegEatAll')
+data.setCell(1, 2, 'userRegistrationTest.UserReWomenTest')
+data.setCell(1, 3, 91191);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ca')
-data.setCell(2, 2, 'userRegistrationTest.SubDomainsTest')
-data.setCell(2, 3, 74932);
+data.setCell(2, 1, 'userRegistrationWoMenVegan')
+data.setCell(2, 2, 'userRegistrationTest.UserReWomenTest')
+data.setCell(2, 3, 90156);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'uk')
-data.setCell(3, 2, 'userRegistrationTest.SubDomainsTest')
-data.setCell(3, 3, 72852);
+data.setCell(3, 1, 'userRegistrationMenNonVegEatAll')
+data.setCell(3, 2, 'userRegistrationTest.UserReMenTest')
+data.setCell(3, 3, 89912);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userRegistrationMenVegan')
+data.setCell(4, 2, 'userRegistrationTest.UserReMenTest')
+data.setCell(4, 3, 80515);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userRegistrationWomenNonVegEatAll')
+data.setCell(5, 2, 'userRegistrationTest.UserReWomenTest')
+data.setCell(5, 3, 79773);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'userRegistrationWoMenVeg')
+data.setCell(6, 2, 'userRegistrationTest.UserReWomenTest')
+data.setCell(6, 3, 79341);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userRegistrationWoMenNonVeg')
+data.setCell(7, 2, 'userRegistrationTest.UserReWomenTest')
+data.setCell(7, 3, 78575);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userRegistrationMenNonVeg')
+data.setCell(8, 2, 'userRegistrationTest.UserReMenTest')
+data.setCell(8, 3, 77384);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'userRegistrationMenVeg')
+data.setCell(9, 2, 'userRegistrationTest.UserReMenTest')
+data.setCell(9, 3, 76300);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'userRegistrationWomenVeganEatAll')
+data.setCell(10, 2, 'userRegistrationTest.UserReWomenTest')
+data.setCell(10, 3, 72988);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'userRegistrationMenVeganEatAll')
+data.setCell(11, 2, 'userRegistrationTest.UserReMenTest')
+data.setCell(11, 3, 72279);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 16 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -283,9 +590,87 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">34 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">userRegistrationTest.UserReWomenTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">userRegistrationWomenVeganNegFtNegative</span>
+                <br/>
+                <span class="ignored-method-name">heightInFtNonVegWomen</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationWomenNonVegNegHeightCmPRE</span>
+                <br/>
+                <span class="ignored-method-name">weightInLbsNonVegWomen</span>
+                <br/>
+                <span class="ignored-method-name">withoutFakeruserRegistrationMenNonVegWomen</span>
+                <br/>
+                <span class="ignored-method-name">witoutFakeruserRegistrationWoMenVegan</span>
+                <br/>
+                <span class="ignored-method-name">heightInFeetveganWomen</span>
+                <br/>
+                <span class="ignored-method-name">userWithBlankdEmaiIdWomen</span>
+                <br/>
+                <span class="ignored-method-name">invalidWeightLbVegEatAllWomen</span>
+                <br/>
+                <span class="ignored-method-name">weightLbsVegetWomen</span>
+                <br/>
+                <span class="ignored-method-name">registrationWomenNonVegNegativeWeightKg</span>
+                <br/>
+                <span class="ignored-method-name">InvalidWeihgtKgveganWomen</span>
+                <br/>
+                <span class="ignored-method-name">heightInFtVegetWomen</span>
+                <br/>
+                <span class="ignored-method-name">userRegistratioWomenVegNegCm</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationWoMenVegwitoutFaker</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationWomenVegEatAllNegativeWeightLb</span>
+                <br/>
+                <span class="ignored-method-name">weightLbsVeganWomen</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">userRegistrationTest.UserReMenTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">registrationMenNonVegNegativeWeightKg</span>
+                <br/>
+                <span class="ignored-method-name">withoutFakeruserRegistrationMenNonVeg</span>
+                <br/>
+                <span class="ignored-method-name">invalidWeightLbVegEatAll</span>
+                <br/>
+                <span class="ignored-method-name">heightInFtVeget</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationMenVegwitoutFaker</span>
+                <br/>
+                <span class="ignored-method-name">weightInLbsNonVeg</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationMenVegEatAllNegativeWeightLb</span>
+                <br/>
+                <span class="ignored-method-name">heightInFtNonVeg</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationMenNonVegNegHeightCmPRE</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationMenVeganNegFt</span>
+                <br/>
+                <span class="ignored-method-name">userWithBlankdEmaiIdMen</span>
+                <br/>
+                <span class="ignored-method-name">weightLbsVegan</span>
+                <br/>
+                <span class="ignored-method-name">weightLbsVeget</span>
+                <br/>
+                <span class="ignored-method-name">heightInFeetvegan</span>
+                <br/>
+                <span class="ignored-method-name">InvalidWeihgtKgvegan</span>
+                <br/>
+                <span class="ignored-method-name">userRegistrationMenVegNegCm</span>
+                <br/>
+                <span class="ignored-method-name">witoutFakeruserRegistrationMenVegan</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -294,54 +679,167 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">userRegistrationTest.SubDomainsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">userRegistrationTest.UserReMenTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">landingPageUrl</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">aus</span>
-                <span class="method-start">13835 ms</span>
+                <span class="method-name">userRegistrationMenNonVeg</span>
+                <span class="method-start">8516 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">91314 ms</span>
+                <span class="method-start">85903 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">landingPageUrl</span>
-                <span class="method-start">91445 ms</span>
+                <span class="method-start">86037 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ca</span>
-                <span class="method-start">106418 ms</span>
+                <span class="method-name">userRegistrationMenVeg</span>
+                <span class="method-start">92613 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">181352 ms</span>
+                <span class="method-start">168914 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">landingPageUrl</span>
-                <span class="method-start">181487 ms</span>
+                <span class="method-start">169034 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">uk</span>
-                <span class="method-start">196535 ms</span>
+                <span class="method-name">userRegistrationMenVegan</span>
+                <span class="method-start">176708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">269391 ms</span>
+                <span class="method-start">257227 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">userRegistrationTest.UserReWomenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">257347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userRegistrationWoMenNonVeg</span>
+                <span class="method-start">263993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">342571 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">landingPageUrl</span>
-                <span class="method-start">269521 ms</span>
+                <span class="method-start">342695 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">usa</span>
-                <span class="method-start">283406 ms</span>
+                <span class="method-name">userRegistrationWoMenVeg</span>
+                <span class="method-start">349920 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">364839 ms</span>
+                <span class="method-start">429261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">429373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userRegistrationWoMenVegan</span>
+                <span class="method-start">438028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">528306 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">userRegistrationTest.UserReMenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">528409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userRegistrationMenNonVegEatAll</span>
+                <span class="method-start">536976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">626998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">627106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userRegistrationMenVegEatAll</span>
+                <span class="method-start">635192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">726746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">726854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userRegistrationMenVeganEatAll</span>
+                <span class="method-start">734750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">807030 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">userRegistrationTest.UserReWomenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">807147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userRegistrationWomenNonVegEatAll</span>
+                <span class="method-start">813648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">893423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">893546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userRegistrationWomenVegEatAll</span>
+                <span class="method-start">900418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">991731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">landingPageUrl</span>
+                <span class="method-start">991840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userRegistrationWomenVeganEatAll</span>
+                <span class="method-start">998364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1071354 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

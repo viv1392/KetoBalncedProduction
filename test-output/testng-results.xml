@@ -1,67 +1,455 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="4" failed="0" skipped="0">
+<testng-results total="12" passed="8" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T11:33:33Z" name="Suite" finished-at="2024-08-29T11:39:38Z" duration-ms="365103">
+  <suite started-at="2024-08-30T05:23:31Z" name="Suite" finished-at="2024-08-30T05:41:23Z" duration-ms="1071594">
     <groups>
-      <group name="country">
-        <method signature="SubDomainsTest.aus()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" name="aus" class="userRegistrationTest.SubDomainsTest"/>
-        <method signature="SubDomainsTest.ca()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" name="ca" class="userRegistrationTest.SubDomainsTest"/>
-        <method signature="SubDomainsTest.uk()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" name="uk" class="userRegistrationTest.SubDomainsTest"/>
-        <method signature="SubDomainsTest.usa()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" name="usa" class="userRegistrationTest.SubDomainsTest"/>
-      </group> <!-- country -->
+      <group name="functionality">
+        <method signature="UserReMenTest.userRegistrationMenNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" name="userRegistrationMenNonVeg" class="userRegistrationTest.UserReMenTest"/>
+        <method signature="UserReMenTest.userRegistrationMenVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" name="userRegistrationMenVeg" class="userRegistrationTest.UserReMenTest"/>
+        <method signature="UserReMenTest.userRegistrationMenVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" name="userRegistrationMenVegan" class="userRegistrationTest.UserReMenTest"/>
+        <method signature="UserReWomenTest.userRegistrationWoMenNonVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" name="userRegistrationWoMenNonVeg" class="userRegistrationTest.UserReWomenTest"/>
+        <method signature="UserReWomenTest.userRegistrationWoMenVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" name="userRegistrationWoMenVeg" class="userRegistrationTest.UserReWomenTest"/>
+        <method signature="UserReWomenTest.userRegistrationWoMenVegan()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" name="userRegistrationWoMenVegan" class="userRegistrationTest.UserReWomenTest"/>
+      </group> <!-- functionality -->
+      <group name="eatAll">
+        <method signature="UserReMenTest.userRegistrationMenNonVegEatAll()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" name="userRegistrationMenNonVegEatAll" class="userRegistrationTest.UserReMenTest"/>
+        <method signature="UserReMenTest.userRegistrationMenVegEatAll()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" name="userRegistrationMenVegEatAll" class="userRegistrationTest.UserReMenTest"/>
+        <method signature="UserReMenTest.userRegistrationMenVeganEatAll()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" name="userRegistrationMenVeganEatAll" class="userRegistrationTest.UserReMenTest"/>
+        <method signature="UserReWomenTest.userRegistrationWomenNonVegEatAll()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" name="userRegistrationWomenNonVegEatAll" class="userRegistrationTest.UserReWomenTest"/>
+        <method signature="UserReWomenTest.userRegistrationWomenVegEatAll()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" name="userRegistrationWomenVegEatAll" class="userRegistrationTest.UserReWomenTest"/>
+        <method signature="UserReWomenTest.userRegistrationWomenVeganEatAll()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" name="userRegistrationWomenVeganEatAll" class="userRegistrationTest.UserReWomenTest"/>
+      </group> <!-- eatAll -->
     </groups>
-    <test started-at="2024-08-29T11:33:33Z" name="Test" finished-at="2024-08-29T11:39:38Z" duration-ms="365103">
-      <class name="userRegistrationTest.SubDomainsTest">
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:03:33Z" name="landingPageUrl" finished-at="2024-08-29T17:03:46Z" duration-ms="13835" status="PASS">
+    <test started-at="2024-08-30T05:23:31Z" name="Test" finished-at="2024-08-30T05:41:23Z" duration-ms="1071594">
+      <class name="userRegistrationTest.UserReMenTest">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:53:31Z" name="landingPageUrl" finished-at="2024-08-30T10:53:40Z" duration-ms="8516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="aus()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:03:46Z" name="aus" finished-at="2024-08-29T17:05:04Z" duration-ms="77474" status="PASS">
+        <test-method signature="userRegistrationMenNonVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:53:40Z" name="userRegistrationMenNonVeg" finished-at="2024-08-30T10:54:57Z" duration-ms="77384" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:05:04Z" name="tearDown" finished-at="2024-08-29T17:05:04Z" duration-ms="130" status="PASS">
+        </test-method> <!-- userRegistrationMenNonVeg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:54:57Z" name="tearDown" finished-at="2024-08-30T10:54:57Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:05:04Z" name="landingPageUrl" finished-at="2024-08-29T17:05:19Z" duration-ms="14973" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:54:57Z" name="landingPageUrl" finished-at="2024-08-30T10:55:04Z" duration-ms="6576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="ca()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:05:19Z" name="ca" finished-at="2024-08-29T17:06:34Z" duration-ms="74932" status="PASS">
+        <test-method signature="userRegistrationMenVeg()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:55:04Z" name="userRegistrationMenVeg" finished-at="2024-08-30T10:56:20Z" duration-ms="76300" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ca -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:06:34Z" name="tearDown" finished-at="2024-08-29T17:06:34Z" duration-ms="135" status="PASS">
+        </test-method> <!-- userRegistrationMenVeg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:56:20Z" name="tearDown" finished-at="2024-08-30T10:56:20Z" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:06:34Z" name="landingPageUrl" finished-at="2024-08-29T17:06:49Z" duration-ms="15048" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:56:20Z" name="landingPageUrl" finished-at="2024-08-30T10:56:28Z" duration-ms="7674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="uk()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:06:49Z" name="uk" finished-at="2024-08-29T17:08:02Z" duration-ms="72852" status="PASS">
+        <test-method signature="userRegistrationMenVegan()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:56:28Z" name="userRegistrationMenVegan" finished-at="2024-08-30T10:57:48Z" duration-ms="80515" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uk -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:08:02Z" name="tearDown" finished-at="2024-08-29T17:08:02Z" duration-ms="130" status="PASS">
+        </test-method> <!-- userRegistrationMenVegan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T10:57:48Z" name="tearDown" finished-at="2024-08-30T10:57:49Z" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:08:02Z" name="landingPageUrl" finished-at="2024-08-29T17:08:16Z" duration-ms="13885" status="PASS">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:02:20Z" name="landingPageUrl" finished-at="2024-08-30T11:02:28Z" duration-ms="8567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageUrl -->
-        <test-method signature="usa()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:08:16Z" name="usa" finished-at="2024-08-29T17:09:37Z" duration-ms="81430" status="PASS">
+        <test-method signature="userRegistrationMenNonVegEatAll()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:02:28Z" name="userRegistrationMenNonVegEatAll" finished-at="2024-08-30T11:03:58Z" duration-ms="89912" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Vacation']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96a66c3f3c429747d8b4768dec5862b1, findElement {using=xpath, value=//span[text()='Vacation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55946/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96a66c3f3c429747d8b4768dec5862b1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Vacation']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96a66c3f3c429747d8b4768dec5862b1, findElement {using=xpath, value=//span[text()='Vacation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55946/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96a66c3f3c429747d8b4768dec5862b1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.vacation(SpecialOccasions.java:34)
+	at userRegistrationTest.UserReMenTest.userRegistrationMenNonVegEatAll(UserReMenTest.java:597)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usa -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.SubDomainsTest@673fdbce]" started-at="2024-08-29T17:09:37Z" name="tearDown" finished-at="2024-08-29T17:09:38Z" duration-ms="143" status="PASS">
+        </test-method> <!-- userRegistrationMenNonVegEatAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:03:58Z" name="tearDown" finished-at="2024-08-30T11:03:58Z" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- userRegistrationTest.SubDomainsTest -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:03:58Z" name="landingPageUrl" finished-at="2024-08-30T11:04:06Z" duration-ms="8086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationMenVegEatAll()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:04:06Z" name="userRegistrationMenVegEatAll" finished-at="2024-08-30T11:05:38Z" duration-ms="91430" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Wedding']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c8a180ba7fda5a1a2e1d947cc4ea5fb, findElement {using=xpath, value=//span[text()='Wedding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56112/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c8a180ba7fda5a1a2e1d947cc4ea5fb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Wedding']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c8a180ba7fda5a1a2e1d947cc4ea5fb, findElement {using=xpath, value=//span[text()='Wedding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56112/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c8a180ba7fda5a1a2e1d947cc4ea5fb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.wedding(SpecialOccasions.java:40)
+	at userRegistrationTest.UserReMenTest.userRegistrationMenVegEatAll(UserReMenTest.java:634)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationMenVegEatAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:05:38Z" name="tearDown" finished-at="2024-08-30T11:05:38Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:05:38Z" name="landingPageUrl" finished-at="2024-08-30T11:05:46Z" duration-ms="7896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationMenVeganEatAll()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:05:46Z" name="userRegistrationMenVeganEatAll" finished-at="2024-08-30T11:06:58Z" duration-ms="72279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationMenVeganEatAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReMenTest@79207381]" started-at="2024-08-30T11:06:58Z" name="tearDown" finished-at="2024-08-30T11:06:58Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- userRegistrationTest.UserReMenTest -->
+      <class name="userRegistrationTest.UserReWomenTest">
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T10:57:49Z" name="landingPageUrl" finished-at="2024-08-30T10:57:55Z" duration-ms="6646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationWoMenNonVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T10:57:55Z" name="userRegistrationWoMenNonVeg" finished-at="2024-08-30T10:59:14Z" duration-ms="78575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationWoMenNonVeg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T10:59:14Z" name="tearDown" finished-at="2024-08-30T10:59:14Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T10:59:14Z" name="landingPageUrl" finished-at="2024-08-30T10:59:21Z" duration-ms="7225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationWoMenVeg()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T10:59:21Z" name="userRegistrationWoMenVeg" finished-at="2024-08-30T11:00:40Z" duration-ms="79341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationWoMenVeg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:00:40Z" name="tearDown" finished-at="2024-08-30T11:00:41Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:00:41Z" name="landingPageUrl" finished-at="2024-08-30T11:00:49Z" duration-ms="8655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationWoMenVegan()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:00:49Z" name="userRegistrationWoMenVegan" finished-at="2024-08-30T11:02:19Z" duration-ms="90156" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sporting event']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb1b13b459783febc51a2ac243c6c88f, findElement {using=xpath, value=//span[text()='Sporting event']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55779/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb1b13b459783febc51a2ac243c6c88f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sporting event']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb1b13b459783febc51a2ac243c6c88f, findElement {using=xpath, value=//span[text()='Sporting event']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55779/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb1b13b459783febc51a2ac243c6c88f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.sportingEvent(SpecialOccasions.java:45)
+	at userRegistrationTest.UserReWomenTest.userRegistrationWoMenVegan(UserReWomenTest.java:171)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationWoMenVegan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:02:20Z" name="tearDown" finished-at="2024-08-30T11:02:20Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:06:58Z" name="landingPageUrl" finished-at="2024-08-30T11:07:05Z" duration-ms="6501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationWomenNonVegEatAll()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:07:05Z" name="userRegistrationWomenNonVegEatAll" finished-at="2024-08-30T11:08:25Z" duration-ms="79773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationWomenNonVegEatAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:08:25Z" name="tearDown" finished-at="2024-08-30T11:08:25Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:08:25Z" name="landingPageUrl" finished-at="2024-08-30T11:08:32Z" duration-ms="6872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationWomenVegEatAll()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:08:32Z" name="userRegistrationWomenVegEatAll" finished-at="2024-08-30T11:10:03Z" duration-ms="91191" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Wedding']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6a8e4eaf5569613ab3facec3f299b61, findElement {using=xpath, value=//span[text()='Wedding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56589/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6a8e4eaf5569613ab3facec3f299b61]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Wedding']"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6a8e4eaf5569613ab3facec3f299b61, findElement {using=xpath, value=//span[text()='Wedding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/jb/2lb8yxlx1ll...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56589/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6a8e4eaf5569613ab3facec3f299b61
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at commonPages.SpecialOccasions.wedding(SpecialOccasions.java:40)
+	at userRegistrationTest.UserReWomenTest.userRegistrationWomenVegEatAll(UserReWomenTest.java:630)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationWomenVegEatAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:10:03Z" name="tearDown" finished-at="2024-08-30T11:10:03Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="landingPageUrl()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:10:03Z" name="landingPageUrl" finished-at="2024-08-30T11:10:10Z" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageUrl -->
+        <test-method signature="userRegistrationWomenVeganEatAll()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:10:10Z" name="userRegistrationWomenVeganEatAll" finished-at="2024-08-30T11:11:23Z" duration-ms="72988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationWomenVeganEatAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:userRegistrationTest.UserReWomenTest@14fc5f04]" started-at="2024-08-30T11:11:23Z" name="tearDown" finished-at="2024-08-30T11:11:23Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- userRegistrationTest.UserReWomenTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

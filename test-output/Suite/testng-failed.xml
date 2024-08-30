@@ -14,18 +14,16 @@
     <classes>
       <class name="userRegistrationTest.UserReWomenTest">
         <methods>
-          <include name="userRegistrationWoMenVeg"/>
           <include name="tearDown"/>
+          <include name="userRegistrationWomenVegEatAll"/>
           <include name="landingPageUrl"/>
+          <include name="userRegistrationWoMenVegan"/>
         </methods>
       </class> <!-- userRegistrationTest.UserReWomenTest -->
       <class name="userRegistrationTest.UserReMenTest">
         <methods>
-          <include name="userRegistrationMenVeganEatAll"/>
-          <include name="userRegistrationMenVegan"/>
           <include name="tearDown"/>
           <include name="landingPageUrl"/>
-          <include name="userRegistrationMenNonVeg"/>
           <include name="userRegistrationMenNonVegEatAll"/>
           <include name="userRegistrationMenVegEatAll"/>
         </methods>
